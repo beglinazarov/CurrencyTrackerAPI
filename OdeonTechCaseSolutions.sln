@@ -7,7 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B8885700-81A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A5036DE4-F558-42DC-B04E-0C67EBF4B06D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyTracker.API", "src\CurrencyTracker.API\CurrencyTracker.API.csproj", "{8CE1CAC7-A7C1-4FA5-84BF-2FD0147EAE9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTracker.API", "src\CurrencyTracker.API\CurrencyTracker.API.csproj", "{8CE1CAC7-A7C1-4FA5-84BF-2FD0147EAE9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{238952F1-61FD-49FF-8656-B74A57E51B29}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+		C:\Users\Ali\Downloads\screenshot.png = C:\Users\Ali\Downloads\screenshot.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,6 +7,6 @@
 		public string SortByForexSelling { get; set; }
 		public string ExportFormat { get; set; }
 		public string ExportFilePath { get; set; }
-		public bool DownloadResponseInExportedFile { get; set; }
+		public bool DownloadResponseInExportedFormat { get; set; }
 	}
 }

@@ -25,16 +25,16 @@ namespace CurrencyTracker.API.Controllers
 		}
 
 		/// <summary>
-		/// 
+		/// GetCurrencies
 		/// </summary>
 		/// <param name="filter"></param>
-		/// <returns></returns>
+		/// <returns>give you multiple result </returns>
 		[HttpPost]
 		public async Task<IActionResult> GetCurrencies(CurrencyFilterModel filter)
 		{
 			var response = await _currencyService.GetCurrencies(filter);
 
-			if (filter.DownloadResponseInExportedFile)
+			if (filter.DownloadResponseInExportedFormat)
 			{
 				if (response != null && !filter.ExportFormat.Equals("") && !filter.ExportFormat.Equals("string"))
 				{
